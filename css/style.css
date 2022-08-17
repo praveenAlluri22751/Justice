@@ -15,10 +15,14 @@
   --yellow-brown: #39372d;
 }
 
+/* Body */
+
 body {
   background-color: var(--brown);
 }
-/* ------- Navbar design --------- */
+
+/*  Navigation */
+
 #header {
   color: var(--light);
 }
@@ -80,7 +84,8 @@ nav {
   color: var(--light);
   transition: 0.3s;
 }
-/* ---- content ---- */
+
+/* content */
 
 .content {
   padding: 3rem var(--defaultpadding) 6rem;
@@ -111,7 +116,8 @@ nav {
   background-repeat: no-repeat;
 }
 
-/* ------- swipe ------- */
+/* unresponsive animation */
+
 .swipe {
   display: flex;
   float: right;
